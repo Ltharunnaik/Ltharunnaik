@@ -24,7 +24,13 @@ public class SampleTest1 {
 		System.out.println("\n PHNumebr"+application.Pincode);
 		System.out.println(application.name);
 		
-//		System.out.println(SampleTest.nm);
+		SampleTest2 Sample = new SampleTest2();
+		System.out.println("SAMPLETEST2"+Sample.Name);
+		System.out.println(Sample.college);
+		System.out.println(Sample.collegeArea);
+		System.out.println(Sample.number);
+		System.out.println(Sample.p);
+		System.out.println(Sample.fname);
 		
 //		Tharun arun = new Tharun();
 //		System.out.println(arun.numebr);
