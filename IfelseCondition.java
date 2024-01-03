@@ -1,16 +1,50 @@
 package sample.java;
+import java.util.Scanner;
 
 public class IfelseCondition {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		int x = 20;
-	    int y = 18;
-	    if (x > y) {
-	      System.out.println("x is greater than y");
-	    }  
+//		Scanner scanner = new Scanner(System.in);
+//		System.out.println("what is your online assessement status ");
+		
+		int i = -20;
+	    if( i > 0 ) {
+	    	System.out.println("the given number negative number");
+	    }
+	    else {
+	    	System.out.println("the given number is positive number");
+	    }
+	    
+	    nextif();
 
+	}
+	
+	public static void nextif() {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("what is your online assessement status ");
+
+		String ExamStatus = scanner.nextLine();
+//		String ExamStatus = "pass";
+		if( ExamStatus == "pass") {
+			System.out.println("wiat for the exam result");
+			
+			String round1status ="pass";
+			if( round1status == "pass") {
+				System.out.println("1round exam status is pass, I will go to 2 round ");
+			}
+			String Round2Status = "fail";
+			if(Round2Status == "Pass") {
+				System.out.println("Are you 2nd round interviwe are pass");
+			}
+			else {
+				System.out.println(" you can go to home");
+			}
+		}
+		else {
+			System.out.println("you can go to home");
+		}
 	}
 
 }
