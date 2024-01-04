@@ -34,7 +34,7 @@ public class IfelseCondition {
 			if( round1status == "pass") {
 				System.out.println("1round exam status is pass, I will go to 2 round ");
 			}
-			String Round2Status = "fail";
+			String Round2Status = "pass";
 			if(Round2Status == "Pass") {
 				System.out.println("Are you 2nd round interviwe are pass");
 			}
